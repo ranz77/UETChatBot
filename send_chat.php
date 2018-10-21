@@ -52,8 +52,8 @@ echo'{
           "template_type":"generic",
           "elements":[
             {
-              "title":"⛔️ CẢNH BÁO",
-              "subtitle":"Bạn đang ở trong hàng chờ chưa kết nối với ai ! Hãy gõ \'End\' để thoát"
+              "title":"⛔️ WARNING",
+              "subtitle":"You are not connected with a stranger yet! Type (End) to exit."
             }
           ]
         }
