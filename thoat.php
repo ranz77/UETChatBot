@@ -81,8 +81,8 @@ echo'{
           "template_type":"generic",
           "elements":[
             {
-              "title":"⛔️ CẢNH BÁO",
-              "subtitle":"Bạn chưa bắt đầu cuộc trò chuyện ! Hãy gõ \'Start\' bắt đầu cuộc trò chuyện"
+              "title":"⛔️ WARNING",
+              "subtitle":"You have not started chat! Please type \ 'Start \' to start the conversation"
             }
           ]
         }
@@ -100,8 +100,8 @@ echo'{
           "template_type":"generic",
           "elements":[
             {
-              "title":"📣 THÔNG BÁO",
-              "subtitle":"Bạn đã rời khỏi hàng chờ ! Hãy gõ \'Start\' để quay lại hàng chờ"
+              "title":"📣 WARNING",
+              "subtitle":"Chat ended! Type (Start) to chat again."
             }
           ]
         }
