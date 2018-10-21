@@ -128,14 +128,14 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
 } else {  // neu co nguoi trong hàng chờ
     addketnoi($userid, $partner);
 	if($gioitinh == "male"){
-	sendchat($userid,"✅ Bạn đã được kết nối với một bạn nữ (👩)");  
-	sendchat($partner,"✅ Bạn đã được kết nối với một bạn nam (👱)");  
+	sendchat($userid,"✅ Now you are chatting with a girl (👩)");  
+	sendchat($partner,"✅ Now you are chatting with a boy (👱)");  
 	}else if($gioitinh == "female"){
-	sendchat($partner,"✅ Bạn đã được kết nối với một bạn nữ (👩)");  
-	sendchat($userid,"✅ Bạn đã được kết nối với một bạn nam (👱)"); 	
+	sendchat($partner,"✅ Now you are chatting with a girl (👩)");  
+	sendchat($userid,"✅ Now you are chatting with a boy (👱)"); 	
 	}else{
-	sendchat($partner,"✅ Bạn đã được kết nối với một người lạ(👤)");  
-	sendchat($userid,"✅ Bạn đã được kết nối với một người lạ(👤)"); 	
+	sendchat($partner,"✅ You have been connected to a stranger(👤)");  
+	sendchat($userid,"✅ You have been connected to a stranger(👤)"); 	
 	}
   
   }
@@ -175,8 +175,8 @@ echo'{
           "template_type":"generic",
           "elements":[
             {
-              "title":"⛔️ CẢNH BÁO",
-              "subtitle":"Bạn đang ở trong hàng chờ ! Hãy gõ \'End\' để thoát"
+              "title":"⛔️ WARNING",
+              "subtitle":"Now you are chatting with a stranger! Type (End) to end the chat."
             }
           ]
         }
@@ -196,8 +196,8 @@ echo'{
           "template_type":"generic",
           "elements":[
             {
-              "title":"⛔️ CẢNH BÁO",
-              "subtitle":"Bạn đang được kết nối chát với người khác ! Hãy gõ \'End\' để thoát"
+              "title":"⛔️ WARNING",
+              "subtitle":"You are being connected to other people! Type \ End \ to exit"
             }
           ]
         }
