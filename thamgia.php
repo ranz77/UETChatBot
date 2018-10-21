@@ -75,8 +75,8 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
           "template_type":"generic",
           "elements":[
             {
-              "title":"🎉 THÔNG BÁO",
-              "subtitle":"Đợi xíu BOT đang tìm một bạn nữ cho bạn (👩)"
+              "title":"🎉 NOTIFICATION",
+              "subtitle":"Please wait! The Bot is looking for a girl (👩)"
             }
           ]
         }
@@ -95,8 +95,8 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
           "template_type":"generic",
           "elements":[
             {
-              "title":"🎉 THÔNG BÁO",
-              "subtitle":"Đợi xíu BOT đang tìm một bạn nam cho bạn (👱)"
+              "title":"🎉 NOTIFICATION",
+              "subtitle":"Please wait! The bot is looking for a boy (👱)"
             }
           ]
         }
@@ -115,8 +115,8 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
           "template_type":"generic",
           "elements":[
             {
-              "title":"🎉 THÔNG BÁO",
-              "subtitle":"Đợi xíu BOT đang tìm một bạn ẩn giới tính giống bạn (👤)"
+              "title":"🎉 NOTIFICATION",
+              "subtitle":"The bot is looking for opposite sex (👤)"
             }
           ]
         }
